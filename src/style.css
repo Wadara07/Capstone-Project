@@ -1,0 +1,70 @@
+.hero {
+  background: #021b63;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero p {
+  margin: 20px 0;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.hero-image img {
+  width: 350px;
+}
+
+.planet-section {
+  padding: 60px;
+  background: #f4f7fc;
+}
+
+.planet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.planet-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.planet-card img {
+  width: 100%;
+}
+
+.planet-info {
+  padding: 15px;
+}
