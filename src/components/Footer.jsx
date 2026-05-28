@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footer-top">
           <h3>About</h3>
-          <p>first name of group members</p>
+          <p>Ayomipo et Temidayo</p>
         </div>
         
         <hr className="footer-divider" />
